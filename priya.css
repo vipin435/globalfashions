@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center vertically */
+    background-color: #333; /* Background color */
+    padding: 10px 20px; /* Padding */
+}
+
+.navbar .logo h2 {
+    color: white; /* Logo text color */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding for links */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: times new roman;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: Blue;}
+	
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366; /* WhatsApp green color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.whatsapp-button img {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+.email-button:hover {
+    background-color: black; /* Darker shade on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
